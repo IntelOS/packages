@@ -9,7 +9,7 @@ def bench():
             product *= sin(angle)**2 + cos(angle)**2
     return product
 
-if __name__ == '__main__':
-    result = timeit.repeat('bench.bench()', setup='import bench', number=10, repeat=10)
-    result = list(sorted(result))
-    print(*result[:3])
+
+result = timeit.repeat('bench.bench()', setup='import bench', number=10, repeat=10)
+result = list(sorted(result))
+print(*result[:3])
