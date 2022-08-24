@@ -1,4 +1,5 @@
 {
     "File": "bench.py",
-    "Modules": ["purpurmc"]
+    "Modules": [""],
+    "OSversion": 1.5
 }
