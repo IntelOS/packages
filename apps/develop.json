@@ -1,5 +1,5 @@
 {
     "File": "develop.py",
-    "Modules": [""],
+    "Modules": ["psutil"],
     "OSversion": 1.0
 }
