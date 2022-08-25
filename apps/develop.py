@@ -13,7 +13,7 @@ jsn.writelines(f"""
 {{
     "File": "{str(args.name)}",
     "Modules": [""],
-    "OSversion": 
+    "OSversion": 1.1
 }}
 """)
 jsn.close()
